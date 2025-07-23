@@ -55,7 +55,8 @@ echo "Ansible installation via pip completed successfully!"
 echo "Generate Default ansible.cfg Using Command"
 
 sudo mkdir -p /etc/ansible
-sudo ansible-config init --disabled > /etc/ansible/ansible.cfg
+sudo chown -R $USER:$USER /etc/ansible
+ansible-config init --disabled > /etc/ansible/ansible.cfg
 ```
 
 ## Usage

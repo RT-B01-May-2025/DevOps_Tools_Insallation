@@ -50,10 +50,10 @@ cd /opt
 sudo yum install wget -y
 # In case of Ubuntu/Debiain
 #sudo apt install wget -y
-sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.106/bin/apache-tomcat-9.0.106.tar.gz
-sudo tar -xvzf apache-tomcat-9.0.106.tar.gz
-sudo mv apache-tomcat-9.0.106 tomcat
-sudo rm apache-tomcat-9.0.106.tar.gz
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.107/bin/apache-tomcat-9.0.107.tar.gz
+sudo tar -xvzf apache-tomcat-9.0.107.tar.gz
+sudo mv apache-tomcat-9.0.107 tomcat
+sudo rm apache-tomcat-9.0.107.tar.gz
 
 # Set permissions
 sudo chown -R ec2-user:ec2-user /opt/tomcat
